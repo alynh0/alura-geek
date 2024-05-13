@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alura Geek</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="app/main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img
+          src="assets/hearts.png"
+          alt="Três corações na cor vermelha, um ao lado do outro"
+        />
+        <p>AluraGeek</p>
+      </nav>
+    </header>
+    <main>
+      <section class="add_product">
+        <h2 class="subtitle">Adicionar produto</h2>
+        <form>
+          <label for="name">Nome do produto:</label>
+          <input type="text" name="name" id="name" required />
+          <label for="price">Valor:</label>
+          <input
+            type="number"
+            name="price"
+            id="price"
+            step="0.01"
+            placeholder="10.50"
+            required
+          />
+          <label for="image">Imagem:</label>
+          <input type="url" name="image" id="image" />
+          <div class="add_products__form__buttons">
+            <button type="submit" class="add_products__form__button">
+              Adicionar
+            </button>
+            <button class="add_products__form__button">
+              Limpar
+            </button>
+          </div>
+        </form>
+      </section>
+      <section class="products">
+        <h2 class="subtitle">Meus produtos:</h2>
+      </section>
+    </main>
+    <footer class="rodape">
+      <img
+        src="assets/hearts.png"
+        alt="Três corações na cor vermelha, um ao lado do outro"
+      />
+      <p>AluraGeek</p>
+      <p>Desenvolvido por Alysson José</p>
+      <p id="footer__year"></p>
+    </footer>
+  </body>
+</html>
