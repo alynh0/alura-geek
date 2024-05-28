@@ -6,7 +6,6 @@
     <title>Alura Geek</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/index.css" />
-    <script src="app/main.js" defer></script>
   </head>
   <body>
     <header>
@@ -51,6 +50,7 @@
       </section>
       <section class="products">
         <h2 class="subtitle" id="products__title">Meus produtos:</h2>
+        <ul class="products__list" id="products__list"></ul>
       </section>
     </main>
     <footer>
@@ -64,5 +64,7 @@
       <p class="footer__paragraph">Desenvolvido por Alysson José</p>
       <p id="footer__year"></p>
     </footer>
+    <script type="module" src="app/createProduct.js"></script>
+    <script type="module" src="app/showProducts.js"></script>
   </body>
 </html>

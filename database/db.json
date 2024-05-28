@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "name": "Alexis Frank",
+      "price": "182",
+      "imageUrl": "https://placehold.co/400",
+      "id": 5
+    },
+    {
+      "name": "Cameran Avila",
+      "price": "134",
+      "imageUrl": "https://placehold.co/400",
+      "id": 6
+    },
+    {
+      "name": "Callie Reid",
+      "price": "534",
+      "imageUrl": "https://placehold.co/400",
+      "id": 7
+    },
+    {
+      "name": "Eugenia Forbes",
+      "price": "627",
+      "imageUrl": "https://placehold.co/400",
+      "id": 8
+    },
+    {
+      "name": "Patricia Burns",
+      "price": "705",
+      "imageUrl": "https://placehold.co/400",
+      "id": 9
+    }
+  ]
+}
